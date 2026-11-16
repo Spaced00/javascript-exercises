@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        function narc(number) {
+            let baseDigit = function length() {
+                return Math.abs(number).toString().length;
+            };
+            let digits = number.toString().split(" ").map(Number);
+            console.log(digits);
+        }
+
+        narc(125);
+
+    </script>
+</body>
+</html>
